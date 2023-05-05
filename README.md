@@ -3,5 +3,3 @@ go_router_advantage
 
 Deep dive in go_router , full advantage go_router
 
-You can use this code free MIT licence for  everyone. 
-If this free source-code helpful don't forget send star. 
