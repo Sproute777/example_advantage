@@ -1,0 +1,47 @@
+name: fitness
+description: App keeping track of health and exercises
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  animations: ^2.0.3
+  app_ui:
+    path: packages/app_ui
+  background_job_repository:
+    path: packages/background_job_repository
+  bloc: ^8.0.3
+  clock: ^1.1.0
+  collection: ^1.16.0
+  database_client:
+    path: packages/database_client
+  equatable: ^2.0.3
+  files_repository:
+    path: packages/files_repository
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  measurements_repository:
+    path: packages/measurements_repository
+  path: ^1.8.1
+  path_provider: ^2.0.11
+  permissions_repository:
+    path: packages/permissions_repository
+  pluto_grid: ^5.0.4
+  settings_repository:
+    path: packages/settings_repository
+  syncfusion_flutter_charts: ^20.2.36
+
+dev_dependencies:
+  bloc_test: ^9.0.3
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  generate: true

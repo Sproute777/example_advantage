@@ -1,0 +1,21 @@
+name: files_repository
+
+on:
+  pull_request:
+    paths:
+      - "packages/files_repository/**"
+      - ".github/workflows/files_repository.yaml"
+
+jobs:
+  build:
+    defaults:
+      run:
+        working-directory: ./packages/files_repository
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v1
+        with:
+          flutter_channel: stable
+          flutter_version: 3.0.5
+          min_coverage: 0

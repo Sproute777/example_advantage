@@ -1,0 +1,43 @@
+{
+    "@@locale": "en",
+    "motivationalLabel": "How's your day?",
+    "yourAreas": "Your Areas",
+    "workout": "Workout",
+    "addSession": "Add Session",
+    "weight": "Weight",
+    "recordWeight": "Add Weight 🖊",
+    "update": "Update",
+    "steps": "Steps Today",
+    "stepsCount": "{count} steps",
+    "@stepsCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "allStats": "All Stats",
+    "allStatsSubtitle": "See progress",
+    "allTime": "All time",
+    "lastYear": "Last year",
+    "last30Days": "Last 30 days",
+    "bodyWeight": "Body weight",
+    "settings": "Settings",
+    "themeMode": "Theme mode",
+    "notifications": "Notifications",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "edit": "Edit",
+    "notes": "Notes",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "activityPermissionsRationale": "The app needs access to your activity in order to show steps count",
+    "importData": "Import data",
+    "exportData": "Export data",
+    "selectFile": "Select file",
+    "skipEmpty": "Skip empty",
+    "firstRowHeader": "Treat first row as header",
+    "matchColumns": "Match columns"
+}
